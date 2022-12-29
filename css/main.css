@@ -1,0 +1,334 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  color: #000000;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+a {
+  text-decoration: none;
+  /* color: #FFFFFF; */
+}
+
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* HEADER */
+
+.header {
+  position: relative;
+  
+  width: 100%;
+  height: 100vh;
+
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  
+  background-position: center;
+  background-size: cover;
+}
+
+.header-title {
+ font-weight: 700;
+font-size: 56px;
+line-height: 1.3;
+text-align: center;
+color: #FFFFFF;
+margin-bottom: 25px;
+}
+.header-subtitle {
+margin: 0;
+font-weight: 700;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+letter-spacing: 0.2em;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+
+.header-icon {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.none {
+  display: none;
+}
+
+/* ////// HEADER */
+
+
+/* ПОРТФОЛИО */
+.portfolio {
+  padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+
+
+.portfolio-title {
+  margin: 0;
+margin-bottom: 70px;
+font-weight: 700;
+font-size: 46px;
+line-height: 130%;
+text-align: center;
+color: #000000;
+}
+
+.card {
+max-width: 540px;
+background-color: #FFFFFF;
+box-shadow: 0px 10px 40px 0px rgba(126, 155, 189, 0.35);
+padding: 20px;
+margin-bottom: 30px;
+}
+
+.card:nth-last-child(1),
+.card:nth-last-child(2) {
+margin-bottom: 0;
+}
+
+.card-first {
+ max-width: 540px;
+background-color: #FFFFFF;
+box-shadow: 0px 10px 40px 0px rgba(126, 155, 189, 0.35);
+margin-bottom: 30px; 
+transition: transform 0.3s ease-in;
+}
+
+.card-first:hover {
+  transform: translateY(-15px);
+}
+
+.card-first h3 {
+margin: 0 ;
+margin-bottom: 13px;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.3;
+}
+
+.card-first p {
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.3; 
+}
+
+.card-link {
+  display: block;
+  color: #000;
+  padding: 20px;
+  transition: color 0.3s ease-in;
+}
+
+.card-link:hover {
+color: #275BEC;
+}
+
+.portfolio-img {
+margin-bottom: 20px;
+}
+.card h3 {
+margin: 0;
+margin-bottom: 13px;
+font-weight: 600;
+font-size: 24px;
+line-height: 1.3;
+}
+.card p {
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.3;
+}
+
+/* ////ПОРТФОЛИО */
+
+
+/* FOOTER */
+.footer {
+padding-top: 45px;
+padding-bottom: 176px;
+
+  background-color: rgba(30, 71, 118, 1);
+  color: #FFFFFF;
+}
+
+.footer-col {
+  max-width: 350px;
+  flex-grow: 1;
+}
+
+.footer-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer-copy {
+line-height: 1.3;
+}
+
+.footer-copy-name {
+font-weight: 700;
+font-size: 28px;
+line-height: 130%;
+color: #7E9EC9;
+margin-bottom: 15px;
+}
+
+.footer-copy p {
+  margin: 0;
+font-weight: 600;
+font-size: 16px;
+line-height: 130%;
+color: #7E9EC9; 
+}
+
+
+.foteer-icons-img {
+  display: flex;
+  align-items: center;
+}
+.foteer-icons-img > *+*
+ {
+  margin-left: 30px;
+}
+
+.foteer-icons p {
+font-weight: 600;
+font-size: 16px;
+line-height: 1.3; 
+}
+
+
+
+.footer-contact-btn {
+ border: 3px solid rgba(255, 255, 255, 1); 
+display: inline-block;
+border-radius: 50px;
+
+padding-left: 30px;
+padding-right: 30px;
+line-height: 44px;
+
+font-weight: 700;
+font-size: 16px;
+text-transform: uppercase;
+
+margin-bottom: 16px;
+
+transition: all 0.4s ease-in;
+}
+
+.footer-contact-btn:hover {
+ background-color: #FFFFFF; 
+ color: rgba(30, 71, 118, 1);
+}
+
+.footer-contact a {
+  color: #FFFFFF;
+}
+
+.footer-contact p {
+margin: 0;
+
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.3;
+color: #7E9EC9;
+}
+
+/* PROJEKT */
+
+.projekt {
+padding: 80px 0px 120px;
+text-align: center;
+}
+.projekt a {
+color: #275BEC;
+}
+
+.projekt-header {
+margin: 0;
+margin-bottom: 40px;
+
+font-weight: 700;
+font-size: 46px;
+line-height: 1.3;
+}
+
+.projekt-img {
+margin-bottom: 70px;
+}
+
+
+.projekt-paragraf {
+  margin: 0 auto;
+ max-width: 730px;
+ margin-bottom: 60px;
+}
+
+.projekt-paragraf p {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.projekt-btn {
+  display: inline-block;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 60px;
+
+  border: 3px solid rgba(39, 91, 236, 1);
+  border-radius: 50px;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 54px;
+text-transform: uppercase;
+color: #275BEC;
+transition: all 0.4s ease-in ;
+}
+
+.projekt-btn:hover {
+background-color: #275BEC;
+color: #FFFFFF;
+}
+
+
+
+

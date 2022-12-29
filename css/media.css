@@ -1,0 +1,134 @@
+/* Адаптация страницы для экрана меньше 1140px */
+
+@media (max-width: 1140px) {
+ .card {
+  width: calc( 50% - 15px);  
+ }   
+ .card-first {
+    width: calc( 50% - 15px);
+ }
+
+.footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.footer-head {
+    flex-direction: column-reverse;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-col {
+    margin-bottom: 50px;
+}
+.footer-col:first-child {
+    margin-bottom: 0;
+}
+}
+ 
+
+
+/* Адаптация страницы для экрана меньше 760px */
+
+@media (max-width: 760px) {
+.header-title {
+    font-size: 32px;
+}
+.header p {
+    font-size: 14px;
+}
+.portfolio-title {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.portfolio {
+    padding-top: 40px;
+    padding-bottom: 60px;
+   
+}
+.portfolio-img {
+margin-bottom: 10px;
+}
+
+.portfolio-card {
+ justify-content: center;
+}
+
+.card {
+width: 100%;
+padding: 15px;
+}
+
+.card:nth-last-child(2) {
+    margin-bottom: 30px;
+}
+
+
+.card-link
+ {
+padding: 15px;
+ }
+.card-first {
+width: 100%;
+
+}
+
+.card-first h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.card h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+.card p {
+font-size: 14px;
+}
+.card-first p {
+font-size: 14px;
+}
+
+
+
+.footer-copy-name {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.footer-copy p {
+    font-size: 14px;
+}
+
+.foteer-icons p {
+font-size: 14px;
+}
+.footer-contact p {
+   font-size: 14px;
+   margin: 0;
+   margin-top: 15px;
+
+}
+
+.projekt {
+    /* text-align: center; */
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+.projekt-header {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.projekt-img {
+    margin-bottom: 20px;
+}
+.projekt-paragraf {
+   margin-bottom: 50px; 
+}
+
+.projekt-btn {
+    padding: 0 10px;
+}
+}
