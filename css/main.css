@@ -68,6 +68,10 @@ text-transform: uppercase;
 color: #FFFFFF;
 }
 
+.header-subtitle br {
+display: none;
+}
+
 .header-icon {
   position: absolute;
   bottom: 25px;
